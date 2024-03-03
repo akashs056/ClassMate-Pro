@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "801049246771",
+    "firebase_url": "https://facts-89eeb-default-rtdb.firebaseio.com",
+    "project_id": "facts-89eeb",
+    "storage_bucket": "facts-89eeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801049246771:android:dbcc6f171ef02924e4b746",
+        "android_client_info": {
+          "package_name": "com.example.facultyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4QdZSA6FsCE35IHW717F-jC3Wy2GKWlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801049246771:android:f735010807b3307ce4b746",
+        "android_client_info": {
+          "package_name": "com.example.student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4QdZSA6FsCE35IHW717F-jC3Wy2GKWlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
