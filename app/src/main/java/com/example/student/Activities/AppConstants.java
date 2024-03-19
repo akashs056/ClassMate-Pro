@@ -1,7 +1,7 @@
 package com.example.student.Activities;
 
 public class AppConstants {
-    public static  long appId=893281246;
-    public static String appSign="e2e00c6a7ef31de5d39f1bf987ef8155a2dd63e79b8afedf3ec6f9270de87ce6";
+    public static  long appId=525134062;
+    public static String appSign="c745138fc889a009ec132597e7b2b92684c685ae3f53b49295a9d519f708c373";
 
 }

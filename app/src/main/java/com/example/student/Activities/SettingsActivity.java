@@ -89,11 +89,27 @@ public class SettingsActivity extends AppCompatActivity {
                 });
             }
         });
+        binding.ConcernHub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SettingsActivity.this, ConcerHub.class);
+                intent.putExtra("key",key);
+                startActivity(intent);
+            }
+        });
         binding.comp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(SettingsActivity.this, CompalintActivity.class);
                 intent.putExtra("key",key);
+                startActivity(intent);
+            }
+        });
+        binding.track.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SettingsActivity.this, TrackProgress.class);
+                intent.putExtra("uid",uid);
                 startActivity(intent);
             }
         });

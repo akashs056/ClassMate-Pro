@@ -64,6 +64,14 @@ public class ParentStudentDetails extends AppCompatActivity {
 
                     }
                 });
+        binding.TrackProgres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ParentStudentDetails.this,TrackProgress.class);
+                intent.putExtra("uid",uid);
+                startActivity(intent);
+            }
+        });
 
     }
 }

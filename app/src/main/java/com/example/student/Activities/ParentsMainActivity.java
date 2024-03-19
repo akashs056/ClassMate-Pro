@@ -116,7 +116,7 @@ public class ParentsMainActivity extends AppCompatActivity {
         binding.courseDetails.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            Intent intent=new Intent(ParentsMainActivity.this, CourseDetails.class);
+            Intent intent=new Intent(ParentsMainActivity.this, ConcerHub.class);
             intent.putExtra("key",key);
             startActivity(intent);
             }

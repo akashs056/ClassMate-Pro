@@ -16,6 +16,19 @@
         android:theme="@style/Base.Theme.Student"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.TrackProgress"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.VoiceYourConcern"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Activities.ConcerHub"
+            android:exported="false" />
+        <activity
             android:name=".Activities.FacultyDetails"
             android:exported="false" />
         <activity
@@ -92,9 +105,7 @@
             android:exported="false" />
         <activity
             android:name=".Activities.SetUpProfileActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Activities.OTPActivity"
             android:exported="false" />

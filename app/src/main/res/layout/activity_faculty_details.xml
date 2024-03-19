@@ -226,4 +226,16 @@
         app:srcCompat="@drawable/back"
         app:tint="@color/black" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/complain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Complaint"
+        android:backgroundTint="@color/orange"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

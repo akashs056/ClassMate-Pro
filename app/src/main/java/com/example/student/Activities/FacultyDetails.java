@@ -2,6 +2,7 @@ package com.example.student.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -15,7 +16,7 @@ public class FacultyDetails extends AppCompatActivity {
     ActivityFacultyDetailsBinding binding;
     FirebaseAuth auth;
     FirebaseDatabase database;
-    String collegeName,name,email,phone,age,gender,image;
+    String collegeName,name,email,phone,age,gender,image,facultyUid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class FacultyDetails extends AppCompatActivity {
         age=getIntent().getStringExtra("age");
         gender=getIntent().getStringExtra("gender");
         image=getIntent().getStringExtra("image");
+        facultyUid=getIntent().getStringExtra("facultyUid");
 
         Glide.with(this).load(image).placeholder(R.drawable.user).into(binding.profileImage);
 
@@ -40,6 +42,14 @@ public class FacultyDetails extends AppCompatActivity {
         binding.phoneED.setText(phone);
         binding.rollNoEd.setText(age);
         binding.programEd.setText(gender);
+
+        binding.complain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(FacultyDetails.this, CompalintActivity.class);
+                startActivity(intent);
+            }
+        });
 
         binding.back.setOnClickListener(new View.OnClickListener() {
             @Override
