@@ -179,14 +179,11 @@ public class MainActivity extends AppCompatActivity {
                                             }
                                         });
                             }
-
                             @Override
                             public void onCancelled(@NonNull DatabaseError error) {
 
                             }
                         });
-
-
         binding.group.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

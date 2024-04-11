@@ -29,7 +29,6 @@ public class GroupActivity extends AppCompatActivity {
     String key;
     ArrayList<GroupChatModel> list;
     String className;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,7 +85,5 @@ public class GroupActivity extends AppCompatActivity {
 
             }
         });
-
-
     }
 }
