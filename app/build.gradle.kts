@@ -60,6 +60,7 @@ dependencies {
     //Glide
     implementation ("com.github.bumptech.glide:glide:4.16.0")
 
+    //Zego clould added dependecy
     implementation ("com.github.ZEGOCLOUD:zego_uikit_prebuilt_video_conference_android:+")
     //lottie Animation
     implementation ("com.airbnb.android:lottie:6.3.0")
