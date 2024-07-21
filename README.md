@@ -1,9 +1,6 @@
 <div align="center">
-  <img src="https://github.com/akashs056/Photos/blob/main/classmateBanner.jpg" width="auto" height="auto" alt="LibreTube">
-
-
+  <img src="https://github.com/akashs056/ClassMate-Pro/blob/master/Images/Readme%20Images/classmateBanner.jpg" width="auto" height="auto" alt="LibreTube">
 </div>
-
 
 <h2 align="left">
 About
@@ -26,10 +23,10 @@ Screenshots
 
 <div style="width:100%; display:flex; justify-content:space-between;">
 
-[<img src="https://github.com/akashs056/Photos/blob/main/classMate1.jpg" width=20% alt="Home">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.png)
-[<img src="https://github.com/akashs056/Photos/blob/main/classMate2.jpg" width=20% alt="Home">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.png)
-[<img src="https://github.com/akashs056/Photos/blob/main/classMate3.jpg" width=20% alt="Subscriptions">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_3.png)
-[<img src="https://github.com/akashs056/Photos/blob/main/classMate4.jpg" width=20% alt="Library">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.png)
+[<img src="https://github.com/akashs056/ClassMate-Pro/blob/master/Images/Readme%20Images/classMate1.jpg" width=20% alt="Home">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_1.png)
+[<img src="https://github.com/akashs056/ClassMate-Pro/blob/master/Images/Readme%20Images/classMate2.jpg" width=20% alt="Home">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_2.png)
+[<img src="https://github.com/akashs056/ClassMate-Pro/blob/master/Images/Readme%20Images/classMate3.jpg" width=20% alt="Home">](fastlane/metadata/android/enUS/images/phoneScreenshots/Screenshot_3.png)
+[<img src="https://github.com/akashs056/ClassMate-Pro/blob/master/Images/Readme%20Images/classMate4.jpg" width=20% alt="Home">](fastlane/metadata/android/en-US/images/phoneScreenshots/Screenshot_4.png)
 
 </div>
 
@@ -55,6 +52,5 @@ Contributing
 
 
 <table><td>
-<a href="#start-of-content">↥ Scroll to top</a>
 </td></table>
 </div>
